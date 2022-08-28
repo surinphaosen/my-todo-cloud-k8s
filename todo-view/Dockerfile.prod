@@ -1,6 +1,6 @@
 # Start the builder phase
 ###################################################
-FROM node:8.15.1 as builder
+FROM node:12.22.9 as builder
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install

@@ -1,5 +1,5 @@
 # Development image with all the Node.js stuff in it
-FROM node:8.15.0
+FROM node:12.22.9
 
 # Install Google Chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
