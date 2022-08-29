@@ -5,6 +5,7 @@ metadata:
   name: todo-proxy
   labels:
     todo-app-service: todo-proxy
+
 spec:
   type: LoadBalancer
   selector:
