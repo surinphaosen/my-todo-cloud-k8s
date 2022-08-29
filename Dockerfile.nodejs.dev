@@ -1,5 +1,5 @@
 # Development image with all the Node.js stuff in it
-FROM node:8.15.1
+FROM node:12.22.9
 
 WORKDIR "/app"
 
