@@ -22,6 +22,7 @@ spec:
       containers:
       - name: todo-elastic
         image: elasticsearch:7.5.2
+        #command: ['chown', '-R', '1000:1000', '/usr/share/elasticsearch/']
         env:
         - name: discovery.type
           value: single-node
